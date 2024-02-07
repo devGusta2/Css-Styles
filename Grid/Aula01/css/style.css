@@ -1,6 +1,12 @@
+*{
+    padding: 0;
+    left: 0;
+    margin: 0;
+}
 .wrapper div{
     background-color: orange;
     padding: 1rem;
+    
 }
 
 .wrapper div:nth-child(even){
@@ -11,4 +17,9 @@
 .wrapper{
     display: grid;
     grid-template-columns: 200px 200px 200px;
+    grid-column-gap: 10px;
+    /*grid-template-rows:200px 200px 200px;*/
+    /*linhas colocadas automaticamente*/
+    grid-auto-rows: 400px;
+    grid-row-gap:10px;
 }
