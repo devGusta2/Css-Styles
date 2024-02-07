@@ -1,0 +1,14 @@
+.wrapper div{
+    background-color: orange;
+    padding: 1rem;
+}
+
+.wrapper div:nth-child(even){
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
